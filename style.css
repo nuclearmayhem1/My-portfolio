@@ -3,9 +3,23 @@
     display: flex;
     flex-wrap: nowrap;
     align-items: flex-start;
+    gap: 10px;
 }
 
-body {
-    margin: 0;
-    padding: 20px;
+.box
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.box > *
+{
+    margin-top: 0px;
+}
+
+body
+{
+    margin: 0 auto;
+    padding: 50px;
 }
