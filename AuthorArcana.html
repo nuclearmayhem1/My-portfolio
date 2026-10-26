@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Author Arcana - Kristian Veisetaune</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a href="index.html">← Back to Portfolio</a>
+
+    <h1>Author Arcana</h1>
+
+    <p>Author Arcana is a game project, however as of currently there is very little game.</p>
+    <p>The plan for Author Arcana is to integrate ECS architecture into Godot for multiple reasons</p>
+    <p>This page shows some of the ideas behind it</p>
+
+    <h2>Video showing a box being created then moved using a AnimatedModel component</h2>
+    <video class="project_video" controls>
+        <source src="ECS_test.mp4.mp4" type="video/mp4">
+        Your browser does not support video playback.
+    </video>
+
+    <hr>
+    <h2>ECS Manager</h2>
+    <img src="Screenshot_10.png" alt="Screenshot of ECS Manager" class="project_image">
+    <p>This screenshot shows some of the ECS manager, which is responsible for effectively "putting the ECS" into godot</p>
+    <hr>
+    <h2>Godot bridge</h2>
+    <img src="Screenshot.png" alt="Screenshot of Godot bridge" class="project_image">
+    <p>This screenshot shows some of the Godot bridge, which provides functions for the ECS side to do stuff in godot</p>
+    <p>It is inteded for game content to use as little of godot as possible, where mostly just basic components such as WorldObject do so</p>
+    <h2>Core Components</h2>
+    <img src="Screenshot_1.png" alt="Screenshot of Godot bridge" class="project_image">
+    <p>This screenshot shows some of the core components, this file contains all the core components required for a game to function such as merly representing an object</p>
+    <p>You can see the WorldObject in particular here which is required for anything to be created in Godots hierarchy</p>
+    <hr>
+    <p><a href="https://github.com/nuclearmayhem1/AuthorArcana">View Source Code on GitHub →</a></p>    
+</body>
+</html>
