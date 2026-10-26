@@ -18,10 +18,15 @@
     margin-top: 0px;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 body
 {
     margin: 0 auto;
-    padding: 50px;
+    padding-top: 50px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 150px;
+    font-family: 'Inter', sans-serif;
 }
 
 .project_grid {
@@ -30,11 +35,47 @@ body
     gap: 20px;
 }
 
-.project_grid .box {
+.project_grid .box
+{
     min-width: 0;
 }
 
-.project_grid img {
+.project_grid img
+{
     max-width: 100%;
     height: auto;
+}
+
+h2
+{
+    margin-bottom: 50px;
+}
+
+.image
+{
+    width: 200px;
+    height: auto;
+}
+
+.project_page
+{
+    display: inline-block;
+    margin-top: 10px;
+    color: #4da3ff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.project_page:hover
+{
+    text-decoration: underline;
+}
+
+.project_image, .project_video
+{
+    display: block;
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
+    margin: 20px 0;
 }
